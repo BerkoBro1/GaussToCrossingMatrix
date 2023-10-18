@@ -3,9 +3,9 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] gaussTrefoil = {1,-2,3,-1,2,-3};
-        int[][] crossingTrefoil = crossingMatrix(gaussTrefoil);
 
+        int[] gaussTrefoil = {1, -2, 3, -4, 5, -6, 7, -8, 9, -3, 2, -1, 4, -7, 6, -5, 8, -9};
+        int[][] crossingTrefoil = crossingMatrix(gaussTrefoil);
     }
 
     public static int[][] crossingMatrix(int[] nums) {
@@ -33,11 +33,11 @@ public class Main {
             }
         }
 
-        /* test print crossing matrix
+        // test print crossing matrix
         for(Strand s : strands) {
             System.out.println(Arrays.toString(s.getCrossings(numStrands)));
         }
-        */
+
 
         //crossing matrix
         int[][] cm = new int[numStrands][numStrands];

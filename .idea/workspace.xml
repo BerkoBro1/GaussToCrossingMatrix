@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fee819c7-ed86-4e83-8dc0-dfdd28b51700" name="Changes" comment="can now convert gauss to crossing matrix">
+    <list default="true" id="fee819c7-ed86-4e83-8dc0-dfdd28b51700" name="Changes" comment="added libraries to read from the excel file">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_ooxml_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_ooxml_schemas_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/xmlbeans_2_6_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaussToCrossingMatrix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GaussToCrossingMatrix.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +42,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ethan/Downloads/xmlbeans-2.6.0.jar",
+    "last_opened_file_path": "D:/Coding/Java/Projects/GaussToCrossingMatrix",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java\Projects\GaussToCrossingMatrix" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697630991871</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added libraries to read from the excel file">
+      <created>1697631668327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697631668327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +108,17 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="Some boilerplate stuff so the algorithm could work" />
     <MESSAGE value="can now convert gauss to crossing matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="can now convert gauss to crossing matrix" />
+    <MESSAGE value="added libraries to read from the excel file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added libraries to read from the excel file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

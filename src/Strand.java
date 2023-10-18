@@ -11,9 +11,9 @@ public class Strand {
 
     public int[] getCrossings(int length) {
         int[] c = new int[length];
-        for(int i = 1; i <= length; i++) {
-            if(crossings.contains(i)) c[i-1] = 2;
-            else if(crossings.contains(-i)) c[i-1] = -1;
+        for(int i = 0; i < length; i++) {
+            if(crossings.contains(i+1)) c[i] = 2;
+            else if(crossings.contains(-i-1)) c[i] = -1;
             else c[i] = 0;
         }
         return c;
